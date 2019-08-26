@@ -1,0 +1,132 @@
+el-icon-search/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, tspan {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  vertical-align: baseline;
+  font-family: "SF Pro Text","Arial","微软雅黑";
+}
+
+tspan {
+  color: #666;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+a {
+  color: #7e8c8d;
+  text-decoration: none;
+  -webkit-backface-visibility: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100vw;
+  overflow: hidden;
+  padding-left: calc(100vw - 100%);
+}
+
+input:-webkit-autofill,select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white  inset !important;
+}
+
+input{
+  outline-color: invert ;
+  outline-style: none ;
+  outline-width: 0px ;
+  border: none ;
+  border-style: none ;
+  text-shadow: none ;
+  -webkit-appearance: none ;
+  -webkit-user-select: text ;
+  outline-color: transparent ;
+  box-shadow: none;
+  border: 0; /* 方法1 */
+  -webkit-appearance: none; /* 方法2 */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#app {
+  overflow: hidden;
+}
+
+.red {
+  color: #F54646 !important;
+}
+
+.green {
+  color: #34C64D !important;
+}
+
+.blue {
+  color: #3388FF !important;
+}
+
+.point {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
